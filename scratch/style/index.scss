@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./header";
+
+.contact {
+  @include flexCenter(row, rgba(41, 139, 126, 0.459));
+  // to inherit from others
+  // @extend header;
+  // to override
+  // background-color: rosybrown;
+
+  //calculation - + / *
+  width: 100%-20%;
+}

@@ -1,0 +1,58 @@
+header {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #c58181;
+  color: #070763;
+}
+
+header button {
+  background: #175969;
+}
+
+header button:hover {
+  background-color: rebeccapurple;
+}
+
+header button::after {
+  content: "hello000";
+}
+
+header button:hover::before {
+  content: "boom";
+}
+
+header p {
+  color: #070763;
+}
+
+.contact {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: rgba(41, 139, 126, 0.459);
+  width: 80%;
+}
+/*# sourceMappingURL=index.css.map */
